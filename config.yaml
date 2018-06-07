@@ -10,20 +10,8 @@ variables:
     type: array
     default:
        - s3-allusers-write
-       - s3-allusers-write-acp
-       - s3-allusers-read
        - s3-allusers-full-control
-       - s3-authenticatedusers-write
-       - s3-authenticatedusers-write-acp
-       - s3-authenticatedusers-read
-       - s3-logging-disabled
-       - s3-world-open-policy-delete
-       - s3-world-open-policy-get
-       - s3-world-open-policy-list
-       - s3-world-open-policy-put
        - s3-world-open-policy-all
-       - s3-only-ip-based-policy
-       - s3-authenticatedusers-access
   AUDIT_AWS_S3_ALERT_RECIPIENT:
     description: "Enter the email address(es) that will receive notifiers. If more than one, separate each with a comma."
     required: false
